@@ -1,4 +1,4 @@
-import { CarroComPlaca } from "./Carro_Com_Placa.mjs";
+import { CarroComPlaca } from "./Carro_Com_Placa.mjs"
 
 export class Locadora{
 
@@ -14,10 +14,14 @@ export class Locadora{
     }
 
     consultaCarros(){
+        
         this.#_carros.forEach(
             (carro) => console.log(
-                "Carro placa" ("+ carro.placa+");
-                tq: " carro.tanque ))
+                            "Carro placa ("+
+                            carro.placa+"); tq:"+
+                            carro.tanque ))
+
+
             
     }
 
